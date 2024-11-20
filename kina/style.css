@@ -1,0 +1,398 @@
+body{
+    width: 99%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("bcg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: rgba(253, 212, 155,0.9);
+    border-bottom: 3px solid rgb(224, 68, 25);
+}
+.logo {
+    width: 25%;
+    height: 100%;
+    padding: 5px;
+}
+.logo img {
+    border-radius: 50%;
+    border: 2px solid rgb(224, 68, 25);
+    height: 60%;
+}
+.logo h6{
+    margin-top: 2px;
+    color: rgb(224, 68, 25);
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    width: 70%;
+    height: 100%;
+}
+.menu ul{
+    margin-right: -10px;
+    margin-top: -2px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    
+}
+.menu ul li{
+    color: rgb(224, 68, 25);
+}
+.container{
+    background-color: rgba(253, 212, 155, 0.716);
+    z-index: 5;
+    padding-top: 20px;
+    border: 3px solid rgb(224, 68, 25);
+    padding-bottom: 20px;
+}
+.naslov {
+    width: 90%;
+    margin-left: 5%;
+    height: 95vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.naslovi {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(202, 189, 0);
+}
+h4{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: rgb(202, 189, 0);
+}
+.btn{
+    cursor: pointer;
+    background-color: rgba(253, 212, 155);
+    color: rgb(224, 68, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 200px;
+    transition: 0.7s;
+}
+.btn:hover{
+    width: 300px;
+    background-color: rgb(224, 68, 25);
+    color: rgba(253, 212, 155);
+    transition: 0.7s;
+}
+.txt {
+    width: 60%;
+    font-size: 25px;
+    color: rgb(202, 189, 0);
+}
+.footer {
+    width: 100%;
+    height: 30px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(253, 212, 155,0.9);
+    color: rgb(224, 68, 25);
+    border-top:  solid rgb(224, 68, 25);
+}
+.article {
+    width: 94%;
+    margin-left: 3%;
+    border-radius: 10px;
+    border: 3px solid rgb(224, 68, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.tekst{
+    width: 60%;
+    margin-left: 7px;
+}
+.tekst h5{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color:  rgb(224, 68, 25);
+}
+.tekst p {
+    font-size: 20px;
+    color:  rgb(224, 68, 25);
+}
+.article a {
+    width: 40%;
+}
+.article a img{
+    width: 100%;
+    border-radius: 10px;
+}
+.artdesno .tekst {
+    padding-left: 10px;
+}
+.prazan{
+    height: 50px;
+}
+.nas {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+.nas h2{
+    font-size: 40px;
+    color:  rgb(224, 68, 25);
+}
+.top3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+    gap: 20px;
+}
+.has{
+    border-radius: 10px;
+    border: 3px solid rgb(224, 68, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.has h5{
+    color: rgb(224, 68, 25);
+    font-size: 25px;
+}
+.has p{
+    color: rgb(224, 68, 25);
+    font-size: 17px;
+}
+.has .btn{
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.has .btn:hover{
+    width: 88%;
+}
+.has img {
+    width: 100%;
+    border-radius: 10px;
+}
+.gore{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid rgb(224, 68, 25);
+    color: rgb(224, 68, 25);
+    font-size: 40px;
+    bottom: 35px;
+    right: 5px;
+    background-color: rgba(253, 212, 155, 0.716);
+}
+.has a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#ind{
+    display: none;
+}
+.eng{
+    position: fixed;
+    bottom: 35px;
+    left: 5px;
+    width: 150px;
+    height: 75px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(224, 68, 25);
+    border-radius: 10px;
+    background-color: rgba(253, 212, 155, 0.716);
+    flex-direction: column;
+    gap: 2px;
+}
+.eng p{
+    cursor: pointer;
+    color: rgb(224, 68, 25);
+}
+#x{
+    color: rgb(224, 68, 25);
+    position: fixed;
+    bottom: 65px;
+    left: 135px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#imee{
+    display: none;
+}
+@media (max-width:801px){
+    .naslov{
+        flex-direction: column;
+    }
+    .header{
+        width: 100%;
+        position: fixed;
+        height: 70px;
+        top: 0;
+        left: 0;
+        display: flex;
+        background-color: rgba(253, 212, 155,0.9);
+        border-bottom: 3px solid rgb(224, 68, 25);
+    }
+    .logo {
+        width: 25%;
+        height: 100%;
+        padding: 5px;
+    }
+    .logo img {
+        border-radius: 50%;
+        border: 2px solid rgb(224, 68, 25);
+        height: 60%;
+    }
+    .logo h6{
+        margin-top: 2px;
+        color: rgb(224, 68, 25);
+        font-size: 13px;
+    }
+    .menu ul li{
+        color: rgb(224, 68, 25);
+        font-size: 10px;
+    }
+    .container{
+        background-color: rgba(253, 212, 155, 0.716);
+        z-index: 5;
+        padding-top: 20px;
+        border: 3px solid rgb(224, 68, 25);
+        padding-bottom: 20px;
+    }
+    .naslov {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .naslovi {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+    h1{
+        font-size: 35px;
+        margin-bottom: 20px;
+        color: rgb(202, 189, 0);
+    }
+    h4{
+        font-size: 22px;
+        margin-bottom: 20px;
+        color: rgb(202, 189, 0);
+    }
+    
+    .txt {
+        width: 90%;
+        font-size: 17px;
+        color: rgb(202, 189, 0);
+        margin-top: 30px;
+    }
+    .container{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .article{
+        flex-direction: column-reverse;
+        width: 74%;
+        margin-left: 13%;
+    }
+    .article a{
+        width: 100%;
+    }
+    .article a img{
+        border-bottom: solid rgb(224, 68, 25) 2px;
+    }
+    .article .tekst{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .article .tekst h5{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .article .tekst p{
+        font-size: 15px;
+    }
+    .article .tekst .btn{
+        width: 160px;
+        font-size: 17px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .article .tekst .btn:hover{
+        width: 200px;
+    }
+    
+    .artdesno{
+        flex-direction: column;
+    }
+    .top3{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .has{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .has img{
+        max-height: 300px;
+    }
+    .has .btn{
+        width: 160px;
+        font-size: 17px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .has .btn:hover{
+        width: 200px;
+    }
+    .footer {
+        position: relative;
+        font-size: 10px;
+    }
+}

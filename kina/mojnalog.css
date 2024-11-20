@@ -1,0 +1,36 @@
+table{
+    width: 100%;
+    border: 3px solid  rgb(224, 68, 25);
+    border-collapse: collapse;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 70px;
+    border: 0;
+}
+td{
+    border: 2px rgb(224, 68, 25) solid;
+    text-align: center;
+    width: 15%;
+    color: rgb(224, 68, 25);
+}
+.btn{
+    width: 70px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    margin: auto;
+}
+.btn:hover{
+    width: 70px;
+    background-color: rgb(237, 98, 121);
+}
+h3{
+    margin: auto;
+    font-size: 30px;
+    margin-top: 70px;
+    color: rgb(224, 68, 25);
+}

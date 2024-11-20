@@ -1,0 +1,136 @@
+.container{
+    margin-top: 120px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mainl{
+    width: 50%;
+    color: rgb(224, 68, 25);
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.mainr{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(224, 68, 25);
+}
+.ocena{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.btn{
+    width: 150px;
+    font-size: 20px;
+}
+.btn:hover{
+    width: 200px;
+}
+img{
+    border-radius: 10px;
+    border: solid 3px rgb(224, 68, 25);
+    height: 200px;
+}
+input {
+    background-color: rgba(253, 212, 155);
+    color: rgb(224, 68, 25);
+}
+.ocena .btn{
+    width: 70px;
+    font-size: 15px;
+}
+.ocena .btn:hover{
+    width: 70px;
+}
+.dodavanje{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.dodavanje .btn{
+    width: 100px;
+    font-size: 15px;
+}
+.dodavanje .btn:hover{
+    width: 100px;
+}
+input{
+    height: 20px;
+}
+#cena{
+    display: none;
+}
+#sta{
+    display: none;
+}
+.main h3{
+    font-size: 30px;
+    margin-top: 70px;
+    color: rgb(224, 68, 25);
+}
+.eng{
+    position: fixed;
+    bottom: 35px;
+    left: 5px;
+    width: 150px;
+    height: 75px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(224, 68, 25);
+    border-radius: 10px;
+    background-color: rgba(253, 212, 155, 0.716);
+    flex-direction: column;
+    gap: 2px;
+}
+.eng p{
+    cursor: pointer;
+    color: rgb(224, 68, 25);
+    margin-top: 0;
+}
+#x{
+    color: rgb(224, 68, 25);
+    position: fixed;
+    bottom: 65px;
+    left: 135px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#imee{
+    display: none;
+}
+@media (max-width:801px){
+    .main{
+        flex-direction: column;    
+    }
+    .mainr{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .mainl p {
+        font-size: 15px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .mainl{
+        width: 100%;
+    }
+    img{
+        height: 150px;
+    }
+}
